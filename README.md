@@ -2,7 +2,7 @@
 
 ## Projeto de gamificaçao com intuito de criar um quiz voltado para dar cupons de desconto em livros de estatistica 
 
-link do quiz -> https://decristony.github.io/Quiz-Estatistica/
+
 
 ##feito Completamente em html css e javascritp
 
