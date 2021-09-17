@@ -1,0 +1,33 @@
+ 
+ *** Questions List ***
+
+ Q.1: O suplemento BCAA é composto por quais aminoacidos?
+       option 0 : Leucina, Isoleucina, Valina
+       option 1 : Alanina, Glicina, Arginina
+       option 2 : Arginina, Glutamina, Valina
+       option 3 : leucina, Alanina, Cisteína
+
+ Q.2: A creatina promove um aumento de:
+       option 0 : Gordura
+       option 1 : Força
+       option 2 : Imunidade
+       option 3 : Energia
+
+Q.3: Para emagrecer é necessario apenas ficar em defict calorico?
+       option 0 : true
+       option 1 : false
+
+
+Q.4: Albumina é uma proteina derivada da(o):
+      option 0 : Carne
+      option 1 : Leite
+      option 2 : Ovo
+
+Q.5: Qual a principal funçao de um termogenico?
+      option 0 : Ganho de massa
+      option 1 : Queimar gordura
+      option 2 : Sintese proteica
+      option 3 : Ganho de Energia
+    
+
+

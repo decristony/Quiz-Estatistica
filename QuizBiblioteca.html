@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Quiz Biblioteca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+    <div class="box">
+        <h1> Projeto de Gamificaçao - Estatística </h1>
+    </div>
+    <div class="home-box custom-box ">
+
+        <h2> Acesso liberado a biblioteca para quem conseguir atingir uma média de 60% de acertos no QUIZ. </h2><br>
+        <p>Número total de questões: <span class="total-de-Questoes">5</span></p>
+        <button type="button" class="btn" onclick="InicarQuiz()">Iniciar Quiz</button>
+    </div>
+
+    <div class="quiz-box custom-box hide">
+        <div class="question-number">
+
+        </div>
+        <div class="question-text">
+
+        </div>
+        <div class="option-container">
+
+        </div>
+        <div class="next-question-btn">
+            <button type="button" class="btn" onclick="proximo()">Proximo</button>
+        </div>
+        <div class="answers-indicator">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="result-box custom-box hide ">
+        <h2>Resultado Final</h2>
+        <table>
+            <tr>
+                <td>Total de Questoes</td>
+                <td>
+                    <span class="total-question">5</span></td>
+            </tr>
+            <tr>
+                <td>Tentativas</td>
+                <td><span class=" total-de-Tentativas "></span></td>
+            </tr>
+            <tr>
+                <td>Corretas</td>
+                <td><span class="Corretas "></span></td>
+            </tr>
+            <tr>
+                <td>Erradas</td>
+                <td><span class="Erradas "></span></td>
+            </tr>
+            <tr>
+                <td>Porcentagem</td>
+                <td><span class="porcentagem "></span></td>
+            </tr>
+            <tr>
+                <td>Sua Pontuaçao Total</td>
+                <td><span class="Pontuaçao-total "></span></td>
+            </tr>
+        </table>
+
+        <button type="button" class="btn" onclick="TentarNovamente()">Tentar Novamente</button>
+        <button type="button" class="btn" onclick="VoltarAoInicio()" value="">Voltar ao Inicio</button>
+        <button type="button" class="btn" onclick="Gabarito()" value="exibir alert">Gabarito</button>
+
+    </div>
+
+    <div class="gabarito-box custom-box hide ">
+        <div class="question-text">
+
+            <p> Pergunta com estatística descritiva (MÉDIA) - Reposta correta
+                <br>
+                <br> - Para calcular o valor da média aritmética simples da tabela do exercicio 01, devemos realizar o somatório de todos os elementos do rol e dividir essa soma pela quantidade de elementos; resultando em 3.071.407.<br> A resposta está
+                correta, pois está de acordo com a fórmula para obter a média
+
+            </p>
+            <img src="img/Gabarito01.PNG">
+            <br><br>
+            <hr>
+
+            <p>Pergunta com estatística (Desvio-Padrão) - Resposta Correta <br><br> - Primeiro deve-se calcular a média dos valores; com resultado da média calcula-se a variância; com resultado da variância basta tirar a raiz quadrada para ter o valor do
+                desvio padrão; resultando em 1.067.645.</p>
+            <img src="img/Gabarito 02.PNG">
+            <br><br>
+            <hr>
+
+            <p>
+                Pergunta com Probabilidade - Resposta Correta <br><br> - Todas as alternativas estão corretas<br><br>As questões foram baseadas pela fórmula abaixo:<br>
+                <img src="img/Gabarito 03.PNG"><br> Considerando um evento A de um espaço amostral E finito. Denominamos de probabilidade de ocorrer o evento “A” a razão entre o número de elementos de A e o número de elemento de E.
+
+
+            </p>
+            <br><br>
+            <hr>
+
+            <p>
+                Pergunta com analise de Grafico - Resposta Correta<br><br> - Gráfico de Barras<br><br> O gráfico de barras é utilizado para realizar comparações entre as categorias de uma variável qualitativa ou quantitativa discreta. Este gráfico pode
+                ser utilizado na vertical ou horizontal.<br><br>
+                <hr>
+
+            </p>
+
+            <p>Pergunta de Correlação/Regressão - Resposta Correta <br><br> - Forte.
+                <br> Considerado correlação forte a partir de 0,70 a 0,89 – onde x = Densidade Demográfica e y = PIB 2015.
+                <br> <img src="img/gabarito 05.PNG">
+            </p>
+
+        </div>
+        <button type="button" class="btn" onclick="VoltarAoInicioB()" value="">Voltar ao Inicio</button>
+
+
+
+    </div>
+
+
+    <script src="js/Questoes.js "></script>
+    <script src="js/Gabarito.js "></script>
+    <script src="js/app.js "></script>
+</section>
+    <section class="footer">
+    <div class="footer ">
+       Dev creator Decristony Araujo 
+    </div>
+</section>
+</body>
+
+</html>
