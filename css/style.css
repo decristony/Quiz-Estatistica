@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(189, 186, 173, 0.883);
+    background-image: url("https://wallpaperaccess.com/full/3063067.png");
 }
 
 * {
@@ -7,6 +7,11 @@ body {
     margin    : 0;
     padding   : 0;
     outline   : none;
+}
+
+.box h1 {
+    color      : #c8c5dc;
+    text-shadow: white;
 }
 
 .custom-box {
@@ -22,16 +27,16 @@ body {
 }
 
 section .footer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position   : fixed;
-    color: #009688;
+    font-family     : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position        : fixed;
+    color           : #753370;
     background-color: black;
 }
 
 .custom-box .btn[type=button] {
     justify-content: justify;
     border         : 10px;
-    background     : #009688;
+    background     : linear-gradient(135deg, #753370 0%, #298096 100%);
     display        : block;
     margin         : 2px auto;
     text-align     : center;
@@ -49,7 +54,7 @@ section .footer {
 
 .custom-box .btn[type=button]:focus {
     width       : 200px;
-    background  : rgb(4, 226, 133);
+    background  : linear-gradient(135deg, #753370 0%, #298096 100%);
     border-color: rgb(22, 3, 22);
     text-align  : center;
 }
@@ -78,7 +83,7 @@ section .footer {
 .form-box button[type=button] {
     justify-content: justify;
     border         : 10px;
-    background     : #009688;
+    background     : #753370;
     display        : block;
     margin         : 2px auto;
     text-align     : center;
@@ -95,7 +100,7 @@ section .footer {
 
 .form-box button[type=button]:focus {
     width       : 150px;
-    background  : rgb(4, 226, 133);
+    background  : #753370;
     border-color: rgb(22, 3, 22);
     text-align  : center;
 }
@@ -113,7 +118,7 @@ section .footer {
 
 .btn {
     padding         : 15px 45px;
-    background-color: #009688;
+    background-color: #753370;
     color           : #ffffff;
     border          : none;
     border-radius   : 5px;
@@ -134,7 +139,7 @@ section .footer {
 
 .quiz-box .question-number {
     font-size     : 18px;
-    color         : #009688;
+    color         : #753370;
     font-weight   : 600;
     border-top    : 1px solid #cccccc;
     padding-bottom: 10px;
@@ -181,15 +186,15 @@ section .footer {
 }
 
 .quiz-box .option-container .option.correta::before {
-    content         : '';
-    position        : absolute;
-    left            : 0;
-    top             : 0;
-    height          : 100%;
-    width           : 100%;
-    background-color: rgb(11, 180, 11);
-    z-index         : -1;
-    animation       : slideInLeft .8s ease forwards;
+    content   : '';
+    position  : absolute;
+    left      : 0;
+    top       : 0;
+    height    : 100%;
+    width     : 100%;
+    background: linear-gradient(135deg, #753370 0%, #298096 100%);
+    z-index   : -1;
+    animation : slideInLeft .8s ease forwards;
 }
 
 @keyframes slideInLeft {
@@ -203,15 +208,16 @@ section .footer {
 }
 
 .quiz-box .option-container .option.errada::before {
-    content         : '';
-    position        : absolute;
-    left            : 0;
-    top             : 0;
-    height          : 100%;
-    width           : 100%;
-    background-color: red;
-    z-index         : -1;
-    animation       : slideInLeft .8s ease forwards;
+    content   : '';
+    position  : absolute;
+    left      : 0;
+    top       : 0;
+    height    : 100%;
+    width     : 100%;
+    background: linear-gradient(15deg, #a71b1b 0%, #f38013 100%);
+
+    z-index  : -1;
+    animation: slideInLeft .8s ease forwards;
 }
 
 .quiz-box .option-container .option.correta {
@@ -225,7 +231,7 @@ section .footer {
 .quiz-box button[type=button] {
     margin       : 15px 0;
     border       : 10px;
-    background   : #009688;
+    background   : #753370;
     display      : block;
     margin       : 2px auto;
     text-align   : center;
@@ -243,7 +249,7 @@ section .footer {
 
 .quiz-box button[type=button]:focus {
     width       : 150px;
-    background  : rgb(4, 226, 133);
+    background  : linear-gradient(135deg, #753370 0%, #298096 100%);
     border-color: rgb(22, 3, 22);
     text-align  : center;
 }
@@ -268,7 +274,7 @@ section .footer {
 }
 
 .quiz-box .answers-indicator div.correta {
-    background-color   : green;
+    background-color   : #753370;
     background-image   : url("../img/correct.png");
     background-size    : 50%;
     background-repeat  : no-repeat;
@@ -276,7 +282,7 @@ section .footer {
 }
 
 .quiz-box .answers-indicator div.errada {
-    background-color   : red;
+    background-color   : #a71b1b;
     background-image   : url("../img/wrong.png");
     background-size    : 50%;
     background-repeat  : no-repeat;
@@ -286,13 +292,13 @@ section .footer {
 .result-box h1 {
     font-size  : 36px;
     line-height: 42px;
-    color      : #009688;
+    color      : #753370;
 }
 
 .result-box h2 {
     font-size  : 30px;
     line-height: 42px;
-    color      : #009688;
+    color      : #753370;
 }
 
 .result-box table {
@@ -332,7 +338,7 @@ section .footer {
     margin      : 0;
     font-size   : 18px;
     width       : 280px;
-    background  : rgb(4, 226, 133);
+    background  : #753370;
     border-color: rgb(22, 3, 22);
 }
 
